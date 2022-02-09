@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Best Cafe</title>
+    <meta
+      name="description"
+      content="Cafe serving blended coffee and healthy organic food"
+    />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS -->
+    <link href="css/cart.css" rel="stylesheet" />
+    <script src="./js/cart.js" defer></script>
+  </head>
+  <body>
+    <div class="wrap cf">
+      <h1 class="projTitle">Shopping Cart</h1>
+      <div class="heading cf">
+        <h1>My Cart</h1>
+        <a href="./menu.html" class="continue">Continue Shopping</a>
+      </div>
+      <div class="cart">
+        <ul class="cartWrap">
+          <!--<li class="items even">Item 2</li>-->
+        </ul>
+      </div>
+
+      <div class="promoCode">
+        <label for="promo">Have A Promo Code?</label
+        ><input type="text" name="promo" placholder="Enter Code" />
+        <a href="#" class="btn"></a>
+      </div>
+
+      <div class="subtotal cf">
+        <ul>
+          <li class="totalRow">
+            <span class="label">Subtotal</span
+            ><span class="value subTotal">$35.00</span>
+          </li>
+
+          <li class="totalRow">
+            <span class="label">Shipping</span><span class="value">$5.00</span>
+          </li>
+
+          <li class="totalRow">
+            <span class="label">Tax</span><span class="value">$4.00</span>
+          </li>
+          <li class="totalRow final">
+            <span class="label">Total</span
+            ><span class="value total">$44.00</span>
+          </li>
+          <li class="totalRow">
+            <a href="#" class="btn continue">Checkout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

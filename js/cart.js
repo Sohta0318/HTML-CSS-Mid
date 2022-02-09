@@ -31,6 +31,7 @@ const fetchProducts = async () => {
     items.className = "qty";
     items.setAttribute("type", "text");
     items.setAttribute("placeholder", 1);
+    itemsWrapper.innerText = "Items:  ";
     itemsWrapper.appendChild(items);
     list.className = "items odd";
     list.setAttribute("id", product.id);

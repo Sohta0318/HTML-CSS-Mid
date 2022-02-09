@@ -21,37 +21,37 @@
     {
       "id": 4,
       "title": "Pumpkin stew",
-      "price": 4.0,
+      "price": 8.0,
       "imageURL": "http://127.0.0.1:5500/images/menu4.jpg"
     },
     {
       "id": 5,
       "title": "Caprese",
-      "price": 4.0,
+      "price": 6.0,
       "imageURL": "http://127.0.0.1:5500/images/menu5.jpg"
     },
     {
       "id": 6,
       "title": "Pasta",
-      "price": 4.0,
+      "price": 12.0,
       "imageURL": "http://127.0.0.1:5500/images/menu6.jpg"
     },
     {
       "id": 7,
       "title": "Ahijo",
-      "price": 4.0,
+      "price": 13.0,
       "imageURL": "http://127.0.0.1:5500/images/menu7.jpg"
     },
     {
       "id": 8,
       "title": "Orange Cake",
-      "price": 4.0,
+      "price": 7.0,
       "imageURL": "http://127.0.0.1:5500/images/menu8.jpg"
     },
     {
       "id": 9,
       "title": "Mille Crêpes",
-      "price": 4.0,
+      "price": 6.0,
       "imageURL": "http://127.0.0.1:5500/images/menu9.jpg"
     }
   ]
